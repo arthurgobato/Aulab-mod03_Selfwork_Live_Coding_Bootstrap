@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webinar retrogaming | Aulab</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Prima sezione: presentazione del webinar -->
+  <header class="hero">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-12 col-md-6">
+          <img src="media/aulab-logo_y.png" class="logo mb-5" alt="Aulab">
+          <p class="text-uppercase">Webinar gratuito</p>
+          <h1 class="fw-bold">Metti le mani al codice divertendoti</h1>
+          <p>Scopri come si sviluppa un videogame anni 2000</p>
+          <div class="d-flex align-items-center gap-3 my-5">
+            <span class="calendario" aria-hidden="true">▦</span>
+            <div>
+              <p class="h3 fw-bold mb-0">25 Luglio 2023</p>
+              <p class="mb-0">ora 18.30</p>
+            </div>
+          </div>
+          <a href="#iscrizione" class="btn btn-outline-warning rounded-pill px-4 py-3">ISCRIVITI GRATUITAMENTE</a>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <img src="media/game arcade.png" class="img-fluid arcade" alt="Cabinato Arcade Zone">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Due colonne, impilate sugli schermi piccoli -->
+    <section class="introduzione py-5">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-12 col-md-6 text-center">
+            <img src="media/ico-gaming-def.png" class="img-fluid icona-gaming" alt="Videogioco arcade al neon">
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Impara le basi di HTML, CSS, Javascript e PHP in modo semplice e divertente</h2>
+            <p>Se da un lato l’Ocse evidenzia per l’Italia un tasso di disoccupazione giovanile in aumento dal 28,7% pre-pandemia al 33,8% nel Gennaio del 2021, dall’altro l’Osservatorio delle Competenze Digitali stima che nel nostro paese c’è una richiesta di oltre 100.000 professionisti nel settore tech. Le aziende sono alla continua <strong>ricerca di personale</strong> in ambito IT per accelerare il processo di trasformazione digitale, ma non ci sono abbastanza candidati formati per soddisfare la domanda. Vieni a scoprire come imparare a programmare con il nostro webinar online gratuito mettendo le mani sul codice e programmando insieme a noi un vero esempio di retrogaming, un videogioco anni 2000.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Il modulo riproduce la grafica: non è collegato a un servizio di iscrizione. -->
+    <section id="iscrizione" class="iscrizione">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <form class="modulo rounded-4 p-4 p-lg-5">
+              <h2 class="fw-bold mb-5">Iscriviti gratuitamente al webinar online</h2>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <span class="calendario calendario-tondo" aria-hidden="true">▦</span>
+                <div>
+                  <p class="h3 mb-0">25 Luglio 2023</p>
+                  <p class="mb-0">ora 18.30</p>
+                </div>
+              </div>
+              <label for="nome" class="visually-hidden">Nome</label>
+              <input id="nome" name="nome" type="text" class="form-control mb-4" placeholder="nome*" autocomplete="given-name" required>
+              <label for="cognome" class="visually-hidden">Cognome</label>
+              <input id="cognome" name="cognome" type="text" class="form-control mb-4" placeholder="cognome*" autocomplete="family-name" required>
+              <label for="email" class="visually-hidden">E-mail</label>
+              <input id="email" name="email" type="email" class="form-control mb-4" placeholder="e-mail*" autocomplete="email" required>
+              <div class="row g-3 mb-3">
+                <div class="col-4">
+                  <label for="paese" class="visually-hidden">Paese</label>
+                  <input id="paese" name="paese" type="text" class="form-control" placeholder="Italia" autocomplete="country-name">
+                </div>
+                <div class="col-8">
+                  <label for="telefono" class="visually-hidden">Telefono</label>
+                  <input id="telefono" name="telefono" type="tel" class="form-control" placeholder="+39" autocomplete="tel">
+                </div>
+              </div>
+              <div class="form-check mb-4">
+                <input id="privacy" type="checkbox" class="form-check-input" required>
+                <label for="privacy" class="form-check-label">Accetto termini e condizioni (GDPR)*</label>
+              </div>
+              <button type="button" class="btn btn-warning rounded-pill w-100">ISCRIVITI GRATUITAMENTE</button>
+              <p class="small text-center mt-3 mb-0">Modulo dimostrativo per l’esercizio.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="aulab">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-12 col-md-6 text-center">
+            <img src="media/logo-aulab-futur.png" class="img-fluid immagine-aulab" alt="Logo Aulab in una città futuristica">
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="testo-giallo">Chi è aulab</h2>
+            <p>Con i nostri corsi abbiamo aiutato più di <strong>10.000 studenti</strong> e studentesse a muovere i primi passi nel mondo digital &amp; tech. Nel 2016 abbiamo lanciato l’Hackademy, la prima scuola di Coding in Italia con un metodo strutturato e registrato che forma in breve tempo le figure professionali più richieste dal mercato del lavoro.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="speaker py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center gy-4">
+          <div class="col-12 col-md-5">
+            <p>lo speaker</p>
+            <h2 class="testo-giallo">Marco Insabato</h2>
+            <p>Dopo aver completato l’Hackademy è entrato a far parte del team education di aulab, prima come tutor e poi come docente. Insegna principalmente <strong>Front-end</strong> ma è appassionato di tutto ciò che riguarda la programmazione. Si è specializzato in Javascript insegnandolo e lavorando su numerosi progetti di sviluppo.</p>
+          </div>
+          <div class="col-12 col-md-5 text-center">
+            <img src="media/picture-marco-insabato-3.png" class="img-fluid ritratto" alt="Marco Insabato, docente Aulab">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-center py-2">
+    <small>© 2023 Aulab Tutti i diritti riservati - P.IVA IT07647440721 - Privacy Policy - Codice etico</small>
+  </footer>
+</body>
+</html>
